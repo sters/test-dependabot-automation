@@ -1,0 +1,11 @@
+# original https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/automating-dependabot-with-github-actions
+
+name: test
+on:
+  - pull_request_target
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 10 # like CI tasks
