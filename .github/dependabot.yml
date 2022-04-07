@@ -5,9 +5,9 @@ updates:
   directory: "/"
   schedule:
     interval: "daily"
-    time: "11:59"
+    time: "12:10"
     timezone: "Asia/Tokyo"
   commit-message:
     prefix: "change"
     include: "scope"
-  open-pull-requests-limit: 1
+  open-pull-requests-limit: 10
