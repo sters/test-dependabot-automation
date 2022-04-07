@@ -5,7 +5,7 @@ updates:
   directory: "/"
   schedule:
     interval: "daily"
-    time: "12:00"
+    time: "11:59"
     timezone: "Asia/Tokyo"
   commit-message:
     prefix: "change"
