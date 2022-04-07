@@ -5,7 +5,7 @@ on:
   - pull_request
 
 jobs:
-  dependabot:
+  test:
     runs-on: ubuntu-latest
     steps:
       - run: sleep 10 # like CI tasks
