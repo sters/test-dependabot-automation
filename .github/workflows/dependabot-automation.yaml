@@ -18,7 +18,7 @@ jobs:
         id: wait-for-build
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          checkName: build
+          checkName: test
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
       - name: Stop if checks is failed
         if: steps.wait-for-build.outputs.conclusion == 'failure'
